@@ -17,6 +17,11 @@ h2 {
   line-height: 2;
 }
 
+h4 {
+  font-size: 38px;
+  font-family: "Playfair Display", serif;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -66,6 +71,11 @@ p {
   h2 {
     font-size: 44px;
   }
+
+  h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -113,11 +123,6 @@ p {
   font-size: 14px;
 }
 
-.github {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-}
-
 .logo {
   max-width: 225px;
 }
@@ -147,4 +152,37 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links {
+  margin: 0 20px;
+  padding: 10px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+footer .contact-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
