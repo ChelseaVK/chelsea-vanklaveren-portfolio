@@ -17,7 +17,7 @@ h2 {
   line-height: 2;
 }
 
-h4 {
+h3 {
   font-size: 38px;
   font-family: "Playfair Display", serif;
 }
@@ -25,7 +25,7 @@ h4 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -72,13 +72,10 @@ p {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -105,7 +102,8 @@ p {
 
 .content-container {
   font-size: 18px;
-  padding: 160px 20px;
+  padding: 60px 20px;
+  background-color: white;
 }
 
 .content {
@@ -124,7 +122,7 @@ p {
 }
 
 .logo {
-  max-width: 225px;
+  max-width: 215px;
 }
 
 nav {
@@ -168,8 +166,6 @@ footer .email-link:hover {
 footer .social-links {
   margin: 0 20px;
   padding: 10px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
 }
 
 footer .social-links a:hover {
@@ -178,7 +174,7 @@ footer .social-links a:hover {
   transition: all 100ms ease-in-out;
 }
 footer .contact-box {
-  background-color: white;
+  background-color: var(--secondary-color);
   padding: 30px;
   border-radius: 10px;
 }
